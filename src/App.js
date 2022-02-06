@@ -59,7 +59,6 @@ class App extends Component {
           </button>
           <h2>Still to do:</h2>
           <ul>
-            
             {this.state.list.map(item => {
               return(
                 <li className='items' key={item.id}>
