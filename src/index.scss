@@ -7,8 +7,7 @@ body {
 .app {
     background-color: #772f1a;
     background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
-    min-height: 50vh;
-    width: 90vw;
+    width: min(90vw, 1500px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,8 +33,9 @@ body {
     .add-button {
 
         width: 20%;
-        border: 2px solid $primary-color;
+        border: 2px solid $red;
         margin-top: 5%;
+        background-color: $primary-color;
     }
 
     ul {
