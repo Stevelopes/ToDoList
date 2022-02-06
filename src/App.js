@@ -57,8 +57,9 @@ class App extends Component {
           <button className='add-button' onClick={() => this.addItem()}>
             Add
           </button>
+          <h2>Still to do:</h2>
           <ul>
-            <h2>Still to do:</h2>
+            
             {this.state.list.map(item => {
               return(
                 <li className='items' key={item.id}>

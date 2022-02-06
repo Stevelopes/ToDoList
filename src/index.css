@@ -42,6 +42,10 @@ body {
   color: #ffd300;
   transform: scale(1.3);
 }
+.app h2 {
+  color: #ffd300;
+  margin: 5%;
+}
 .app ul {
   list-style: none;
   padding: 0;
@@ -50,11 +54,8 @@ body {
   flex-wrap: wrap;
   margin-top: 8%;
 }
-.app ul h2 {
-  color: #ffd300;
-}
 .app ul li {
-  margin: 2%;
+  margin: 0% 3% 3% 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
